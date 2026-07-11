@@ -82,10 +82,13 @@ function playGame() {
         // Compare human and computer scores
     if (humanScore > computerScore) {
         alert('Human wins! ' + humanScore + ' to ' + computerScore);
+        console.log("Human wins!");
     } else if (humanScore < computerScore) {
         alert('Computer wins! ' + computerScore + ' to ' + humanScore);
+        console.log("Computer wins!");
     } else {
         alert("It's a tie!");
+        console.log("Nobody wins.");
     }
 }
 
